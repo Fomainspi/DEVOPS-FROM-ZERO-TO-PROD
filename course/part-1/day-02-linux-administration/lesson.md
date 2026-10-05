@@ -759,3 +759,121 @@ Next:
 
 **William Foma — DevOps Trainer**  
 **https://foma.life**
+
+
+---
+
+## FOMA Infographic Alignment — Day 2
+
+This module follows the official Day 2 infographic sequence: **Users & Groups → Permissions → SSH → Processes → Services → Logs → Disk → Memory → Networking → Troubleshooting**.
+
+### Users & groups — core commands
+
+```bash
+sudo useradd devops
+sudo passwd devops
+sudo groupadd devops
+sudo usermod -aG devops devops
+id devops
+cat /etc/passwd | grep devops
+cat /etc/group | grep devops
+```
+
+### Permissions — core commands
+
+```bash
+ls -l file.txt
+chmod 755 script.sh
+sudo chown devops:devops file.txt
+chmod +x script.sh
+```
+
+### SSH — secure access
+
+```bash
+ssh user@remote-server
+scp file.txt user@server:/home/user/
+ssh-keygen -t rsa -b 4096
+ssh-copy-id user@server
+```
+
+Prefer modern SSH key types such as Ed25519 for new deployments when supported; RSA remains useful for compatibility scenarios.
+
+### Processes
+
+```bash
+ps aux
+ps aux | grep nginx
+top
+kill <PID>
+kill -9 <PID>
+```
+
+### Services with systemd
+
+```bash
+sudo systemctl status nginx
+sudo systemctl start nginx
+sudo systemctl stop nginx
+sudo systemctl enable nginx
+sudo systemctl disable nginx
+sudo systemctl reload nginx
+```
+
+### Logs
+
+```bash
+sudo journalctl -xe
+sudo journalctl -u nginx
+sudo journalctl -u nginx -n 50
+tail -n 50 /var/log/syslog
+tail -f /var/log/nginx/access.log
+```
+
+### Disk
+
+```bash
+df -h
+du -sh /var/log
+find / -type f -size +100M 2>/dev/null
+lsblk
+sudo blkid
+```
+
+### Memory
+
+```bash
+free -h
+cat /proc/meminfo
+top
+swapon --show
+```
+
+### Networking
+
+```bash
+ip addr
+ip route
+ping -c 4 8.8.8.8
+ss -tulpn
+nslookup google.com
+traceroute google.com
+```
+
+If `nslookup` or `traceroute` is not installed, install the appropriate package in your disposable lab environment rather than assuming every minimal Linux image contains them.
+
+### Troubleshooting sequence
+
+Use evidence before intervention:
+
+```bash
+uptime
+top
+df -h
+sudo systemctl --failed
+sudo journalctl -p err -n 50
+ss -tulpn
+htop
+```
+
+The objective is not to memorize the infographic. The objective is to use the commands to form and test a diagnosis.
