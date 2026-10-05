@@ -1,0 +1,38 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: foma-app
+  namespace: production
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: foma-app
+  template:
+    metadata:
+      labels:
+        app: foma-app
+    spec:
+      containers:
+        - name: web
+          image: nginx:1.25
+          ports:
+            - containerPort: 80
+          envFrom:
+            - configMapRef:
+                name: foma-config
+            - secretRef:
+                name: foma-secret
+          volumeMounts:
+            - name: data
+              mountPath: /usr/share/nginx/html/data
+          readinessProbe:
+            httpGet:
+              path: /
+              port: 80
+            initialDelaySeconds: 3
+            periodSeconds: 5
+      volumes:
+        - name: data
+          persistentVolumeClaim:
+            claimName: foma-data
