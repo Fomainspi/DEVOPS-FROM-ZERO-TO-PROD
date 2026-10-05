@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: crash-demo
+  namespace: production
+spec:
+  containers:
+    - name: crash-demo
+      image: busybox:1.36
+      command: ["sh", "-c", "echo 'FOMA troubleshooting demo'; exit 1"]
