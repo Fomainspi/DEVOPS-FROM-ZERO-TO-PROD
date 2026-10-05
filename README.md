@@ -2,7 +2,7 @@
 
 ![FOMA](https://img.shields.io/badge/FOMA-Foundation%20of%20Mastering%20Automation-0b5cff)
 ![Course](https://img.shields.io/badge/Course-DevOps%20from%20Zero%20to%20Production-6f42c1)
-![Status](https://img.shields.io/badge/Days%209--11-Complete-success)
+![Status](https://img.shields.io/badge/Days%201--15-Complete-success)
 
 **Foundation of Mastering Automation (FOMA)**  
 **Trainer:** William Foma — DevOps Trainer  
@@ -48,10 +48,10 @@ Every technology is introduced through:
 - [x] **Day 9 — Docker Production Practices**
 - [x] **Day 10 — Kubernetes Fundamentals**
 - [x] **Day 11 — Helm & Kubernetes Packaging**
-- [ ] Day 12 — Kubernetes Applications
-- [ ] Day 13 — Kubernetes Services & Networking
-- [ ] Day 14 — Kubernetes Configuration
-- [ ] Day 15 — Kubernetes Storage
+- [x] **Day 12 — Kubernetes Applications**
+- [x] **Day 13 — Helm & Kubernetes Packaging**
+- [x] **Day 14 — Kubernetes Ingress & Networking**
+- [x] **Day 15 — Kubernetes Storage, ConfigMaps & Secrets**
 - [ ] Day 16 — Kubernetes Security & RBAC
 - [ ] Day 17 — Kubernetes Troubleshooting
 - [ ] Day 18 — CI/CD Fundamentals
@@ -128,6 +128,10 @@ Each module also contains an **original FOMA SVG illustration** designed specifi
 - Day 9 — Docker production flow
 - Day 10 — Kubernetes architecture
 - Day 11 — Helm release flow
+- Day 12 — Kubernetes application architecture
+- Day 13 — Helm packaging lifecycle
+- Day 14 — Ingress routing flow
+- Day 15 — Storage, ConfigMaps and Secrets
 
 ## Suggested lab environment
 
@@ -157,11 +161,11 @@ DEVOPS-FROM-ZERO-TO-PROD/
         ├── day-08-docker-fundamentals/
         ├── day-09-docker-production-practices/
         ├── day-10-kubernetes-fundamentals/
-        └── day-11-helm-kubernetes-packaging/
-        ├── day-05-github-and-collaboration/
-        ├── day-06-python-for-devops/
-        ├── day-07-devops-automation-project/
-        └── day-08-docker-fundamentals/
+        ├── day-11-helm-kubernetes-packaging/
+        ├── day-12-kubernetes-applications/
+        ├── day-13-helm-kubernetes-packaging/
+        ├── day-14-kubernetes-ingress-networking/
+        └── day-15-kubernetes-storage-configmaps-secrets/
 ~~~
 
 ## Brand
