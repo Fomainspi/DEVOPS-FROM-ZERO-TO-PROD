@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500">
+<rect width="1200" height="500" fill="#f8fafc"/>
+<text x="600" y="45" text-anchor="middle" font-family="Arial" font-size="28" font-weight="700" fill="#16213e">EVIDENCE-DRIVEN DEVOPS TROUBLESHOOTING</text>
+<text x="600" y="75" text-anchor="middle" font-family="Arial" font-size="15" fill="#475569">Do not guess first. Observe, test, verify.</text>
+<g font-family="Arial" font-size="16" font-weight="700" text-anchor="middle">
+<rect x="45" y="155" width="150" height="80" rx="16" fill="#fee2e2"/><text x="120" y="188" fill="#991b1b">PROBLEM</text><text x="120" y="212" font-size="13" font-weight="400" fill="#475569">User reports failure</text>
+<rect x="225" y="155" width="150" height="80" rx="16" fill="#ffedd5"/><text x="300" y="188" fill="#9a3412">OBSERVE</text><text x="300" y="212" font-size="13" font-weight="400" fill="#475569">Check state</text>
+<rect x="405" y="155" width="150" height="80" rx="16" fill="#fef3c7"/><text x="480" y="188" fill="#92400e">EVIDENCE</text><text x="480" y="212" font-size="13" font-weight="400" fill="#475569">Logs, processes</text>
+<rect x="585" y="155" width="150" height="80" rx="16" fill="#e0e7ff"/><text x="660" y="188" fill="#3730a3">HYPOTHESIS</text><text x="660" y="212" font-size="13" font-weight="400" fill="#475569">Possible cause</text>
+<rect x="765" y="155" width="150" height="80" rx="16" fill="#ede9fe"/><text x="840" y="188" fill="#6d28d9">TEST</text><text x="840" y="212" font-size="13" font-weight="400" fill="#475569">Disprove/prove</text>
+<rect x="945" y="155" width="150" height="80" rx="16" fill="#dcfce7"/><text x="1020" y="188" fill="#166534">VERIFY</text><text x="1020" y="212" font-size="13" font-weight="400" fill="#475569">Confirm recovery</text>
+</g>
+<g stroke="#64748b" stroke-width="3">
+<path d="M195 195 H225"/><path d="M375 195 H405"/><path d="M555 195 H585"/><path d="M735 195 H765"/><path d="M915 195 H945"/>
+</g>
+<rect x="280" y="310" width="640" height="90" rx="18" fill="white" stroke="#cbd5e1"/>
+<text x="600" y="343" text-anchor="middle" font-family="Arial" font-size="18" font-weight="700" fill="#334155">Typical Linux evidence</text>
+<text x="600" y="371" text-anchor="middle" font-family="Arial" font-size="14" fill="#475569">pwd • ls • tail • grep • ps • top • ls -l • whoami • id</text>
+</svg>
