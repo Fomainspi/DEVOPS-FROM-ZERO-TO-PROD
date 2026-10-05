@@ -1,6 +1,6 @@
 # DEVOPS FROM ZERO TO PRODUCTION
 
-![Status](https://img.shields.io/badge/Days%201--15-Complete-success)
+![Status](https://img.shields.io/badge/Days%201--22-Complete-success)
 
 **Foundation of Mastering Automation (FOMA)**  
 **Trainer:** William Foma — DevOps Trainer  
@@ -50,13 +50,13 @@ Every technology is introduced through:
 - [x] **Day 13 — Helm & Kubernetes Packaging**
 - [x] **Day 14 — Kubernetes Ingress & Networking**
 - [x] **Day 15 — Kubernetes Storage, ConfigMaps & Secrets**
-- [ ] Day 16 — Kubernetes Security & RBAC
-- [ ] Day 17 — Kubernetes Troubleshooting
-- [ ] Day 18 — CI/CD Fundamentals
-- [ ] Day 19 — Jenkins / GitHub Actions
-- [ ] Day 20 — Infrastructure as Code with Terraform
-- [ ] Day 21 — AWS Cloud Foundations
-- [ ] Day 22 — Production DevOps Capstone
+- [x] **Day 16 — Kubernetes Security & RBAC**
+- [x] **Day 17 — Kubernetes Troubleshooting**
+- [x] **Day 18 — CI/CD Fundamentals**
+- [x] **Day 19 — Jenkins / GitHub Actions**
+- [x] **Day 20 — Infrastructure as Code with Terraform**
+- [x] **Day 21 — AWS Cloud Foundations**
+- [x] **Day 22 — Production DevOps Capstone**
 
 ## Day 3
 
@@ -112,6 +112,24 @@ Day 1 establishes the foundation required for the rest of the program:
 - real-world troubleshooting
 - hands-on labs
 - assessment and answer key
+
+## Days 16–22 — Production Engineering Track
+
+The course now expands from Kubernetes fundamentals into security, troubleshooting, delivery automation, infrastructure and cloud operations:
+
+- Day 16 — Kubernetes Security & RBAC
+- Day 17 — Kubernetes Troubleshooting
+- Day 18 — CI/CD Fundamentals
+- Day 19 — Jenkins / GitHub Actions
+- Day 20 — Infrastructure as Code with Terraform
+- Day 21 — AWS Cloud Foundations
+- Day 22 — Production DevOps Capstone
+
+Every module follows the FOMA teaching model:
+
+**Definition → Why it matters → Mental model → Analogy → Example → Hands-on → Troubleshooting → Production best practices → Knowledge check → Challenge.**
+
+The capstone connects the entire Part 1 toolchain into one production-oriented workflow.
 
 ## Visual reference
 
