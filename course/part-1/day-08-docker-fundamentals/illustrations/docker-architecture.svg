@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650">
+<rect width="1200" height="650" rx="28" fill="#07111f"/>
+<text x="60" y="70" fill="#fff" font-size="38" font-family="Arial" font-weight="700">FOMA — Docker Mental Model</text>
+<text x="60" y="110" fill="#9db4cc" font-size="20" font-family="Arial">Build → run → connect → persist → distribute</text>
+<g font-family="Arial" font-weight="700" text-anchor="middle">
+<rect x="65" y="200" width="210" height="125" rx="18" fill="#1e3a5f"/><text x="170" y="250" fill="#fff" font-size="26">Dockerfile</text><text x="170" y="288" fill="#7dd3fc" font-size="18">instructions</text>
+<rect x="340" y="200" width="210" height="125" rx="18" fill="#3b2a68"/><text x="445" y="250" fill="#fff" font-size="26">IMAGE</text><text x="445" y="288" fill="#c4b5fd" font-size="18">template</text>
+<rect x="615" y="200" width="210" height="125" rx="18" fill="#145b50"/><text x="720" y="250" fill="#fff" font-size="26">CONTAINER</text><text x="720" y="288" fill="#86efac" font-size="18">process</text>
+<rect x="890" y="200" width="245" height="125" rx="18" fill="#5a3a16"/><text x="1012" y="250" fill="#fff" font-size="26">REGISTRY</text><text x="1012" y="288" fill="#fde68a" font-size="18">distribution</text>
+</g>
+<g stroke="#67e8f9" stroke-width="5"><path d="M275 262H340"/><path d="M550 262H615"/><path d="M825 262H890"/></g>
+<g font-family="Arial" text-anchor="middle">
+<rect x="160" y="410" width="250" height="100" rx="18" fill="#164e63"/><text x="285" y="455" fill="#fff" font-size="24">VOLUMES</text><text x="285" y="483" fill="#67e8f9" font-size="17">persistent data</text>
+<rect x="475" y="410" width="250" height="100" rx="18" fill="#4a2345"/><text x="600" y="455" fill="#fff" font-size="24">NETWORKS</text><text x="600" y="483" fill="#f9a8d4" font-size="17">service communication</text>
+<rect x="790" y="410" width="250" height="100" rx="18" fill="#334155"/><text x="915" y="455" fill="#fff" font-size="24">COMPOSE</text><text x="915" y="483" fill="#cbd5e1" font-size="17">multi-container</text>
+</g>
+<text x="600" y="585" fill="#9db4cc" font-size="20" font-family="Arial" text-anchor="middle">FOMA • Foundation of Mastering Automation • https://foma.life</text>
+</svg>
