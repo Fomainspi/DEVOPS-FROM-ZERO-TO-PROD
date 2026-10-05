@@ -2,7 +2,7 @@
 
 ![FOMA](https://img.shields.io/badge/FOMA-Foundation%20of%20Mastering%20Automation-0b5cff)
 ![Course](https://img.shields.io/badge/Course-DevOps%20from%20Zero%20to%20Production-6f42c1)
-![Status](https://img.shields.io/badge/Day%201-Complete-success)
+![Status](https://img.shields.io/badge/Days%201--8-Complete-success)
 
 **Foundation of Mastering Automation (FOMA)**  
 **Trainer:** William Foma — DevOps Trainer  
@@ -37,28 +37,28 @@ Every technology is introduced through:
 
 ### Part 1 — DevOps & Linux Foundation
 
-- [x] **Day 1 — DevOps & Linux Foundation**
-- [x] **Day 2 — Linux Administration**
-- [x] **Day 3 — Bash & Shell Automation**
-- [x] **Day 4 — Git Fundamentals**
-- [ ] Day 5 — Networking Fundamentals
-- [ ] Day 6 — Docker
-- [ ] Day 7 — Docker Compose
-- [ ] Day 8 — Kubernetes Fundamentals
-- [ ] Day 9 — Kubernetes Workloads
-- [ ] Day 10 — Kubernetes Services & Networking
-- [ ] Day 11 — Kubernetes Configuration
-- [ ] Day 12 — Kubernetes Storage
-- [ ] Day 13 — Kubernetes Security & RBAC
-- [ ] Day 14 — Kubernetes Troubleshooting
-- [ ] Day 15 — Helm
-- [ ] Day 16 — CI/CD Fundamentals
-- [ ] Day 17 — Jenkins / GitHub Actions
-- [ ] Day 18 — Infrastructure as Code with Terraform
-- [ ] Day 19 — AWS Cloud Foundations
-- [ ] Day 20 — Production DevOps Capstone
-
-> The roadmap is intentionally separated from completed lessons. Future modules should be added as full lessons rather than fabricated placeholders.
+- [x] Day 1 — DevOps & Linux Foundation
+- [x] Day 2 — Linux Administration
+- [x] Day 3 — Bash & Shell Automation
+- [x] Day 4 — Git Fundamentals
+- [x] **Day 5 — GitHub & Collaboration**
+- [x] **Day 6 — Python for DevOps**
+- [x] **Day 7 — DevOps Automation Project**
+- [x] **Day 8 — Docker Fundamentals**
+- [ ] Day 9 — Docker Production Practices
+- [ ] Day 10 — Kubernetes Fundamentals
+- [ ] Day 11 — Kubernetes Workloads
+- [ ] Day 12 — Kubernetes Services & Networking
+- [ ] Day 13 — Kubernetes Configuration
+- [ ] Day 14 — Kubernetes Storage
+- [ ] Day 15 — Kubernetes Security & RBAC
+- [ ] Day 16 — Kubernetes Troubleshooting
+- [ ] Day 17 — Helm
+- [ ] Day 18 — CI/CD Fundamentals
+- [ ] Day 19 — Jenkins / GitHub Actions
+- [ ] Day 20 — Infrastructure as Code with Terraform
+- [ ] Day 21 — AWS Cloud Foundations
+- [ ] Day 22 — Production DevOps Capstone
 
 ## Day 3
 
@@ -117,7 +117,14 @@ Day 1 establishes the foundation required for the rest of the program:
 
 ## Visual reference
 
-The three FOMA infographics supplied for Days 2–4 are the official visual reference for this sequence. The repository lessons expand the same topic groups into detailed explanations, commands, hands-on labs, troubleshooting and knowledge checks.
+The official FOMA Day 5–8 infographics supplied with the curriculum define the sequence and learning outcomes. The repository expands each infographic into a complete lesson rather than copying the poster text.
+
+Each module also contains an **original FOMA SVG illustration** designed specifically for the lesson:
+
+- Day 5 — GitHub collaboration flow
+- Day 6 — Python for DevOps automation
+- Day 7 — End-to-end DevOps project flow
+- Day 8 — Docker mental model
 
 ## Suggested lab environment
 
@@ -132,7 +139,7 @@ For destructive commands, always use a disposable lab directory or VM.
 
 ## Repository structure
 
-```text
+~~~text
 DEVOPS-FROM-ZERO-TO-PROD/
 ├── README.md
 └── course/
@@ -140,9 +147,12 @@ DEVOPS-FROM-ZERO-TO-PROD/
         ├── day-01-devops-linux-foundation/
         ├── day-02-linux-administration/
         ├── day-03-bash-shell-automation/
-        └── day-04-git-fundamentals/
-            └── lesson.md
-```
+        ├── day-04-git-fundamentals/
+        ├── day-05-github-and-collaboration/
+        ├── day-06-python-for-devops/
+        ├── day-07-devops-automation-project/
+        └── day-08-docker-fundamentals/
+~~~
 
 ## Brand
 
