@@ -38,9 +38,9 @@ Every technology is introduced through:
 ### Part 1 — DevOps & Linux Foundation
 
 - [x] **Day 1 — DevOps & Linux Foundation**
-- [ ] Day 2 — Linux Administration
-- [ ] Day 3 — Git & GitHub
-- [ ] Day 4 — Bash Scripting
+- [x] **Day 2 — Linux Administration**
+- [x] **Day 3 — Bash & Shell Automation**
+- [x] **Day 4 — Git Fundamentals**
 - [ ] Day 5 — Networking Fundamentals
 - [ ] Day 6 — Docker
 - [ ] Day 7 — Docker Compose
@@ -59,6 +59,40 @@ Every technology is introduced through:
 - [ ] Day 20 — Production DevOps Capstone
 
 > The roadmap is intentionally separated from completed lessons. Future modules should be added as full lessons rather than fabricated placeholders.
+
+## Day 3
+
+**Path:** `course/part-1/day-03-bash-shell-automation/lesson.md`
+
+Day 3 turns Linux administration into automation:
+
+- Bash and shell fundamentals
+- variables and environment variables
+- input and positional arguments
+- pipes and redirection
+- conditions, loops and functions
+- exit codes
+- safer Bash with strict mode
+- debugging with `bash -n` and `bash -x`
+- system health-check automation
+- log-analysis automation
+
+## Day 4
+
+**Path:** `course/part-1/day-04-git-fundamentals/lesson.md`
+
+Day 4 introduces Git as the foundation of source control and CI/CD:
+
+- working directory, staging area and repository
+- commits and history
+- branches and merging
+- conflict resolution
+- GitHub remotes
+- clone, fetch, pull and push
+- Pull Requests and review
+- `.gitignore`
+- source-control security and secrets
+- Git workflows connected to CI/CD
 
 ## Day 1
 
@@ -81,6 +115,10 @@ Day 1 establishes the foundation required for the rest of the program:
 - hands-on labs
 - assessment and answer key
 
+## Visual reference
+
+The three FOMA infographics supplied for Days 2–4 are the official visual reference for this sequence. The repository lessons expand the same topic groups into detailed explanations, commands, hands-on labs, troubleshooting and knowledge checks.
+
 ## Suggested lab environment
 
 Recommended options:
@@ -99,7 +137,10 @@ DEVOPS-FROM-ZERO-TO-PROD/
 ├── README.md
 └── course/
     └── part-1/
-        └── day-01-devops-linux-foundation/
+        ├── day-01-devops-linux-foundation/
+        ├── day-02-linux-administration/
+        ├── day-03-bash-shell-automation/
+        └── day-04-git-fundamentals/
             └── lesson.md
 ```
 
