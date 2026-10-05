@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: broken-web
+  namespace: production
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: broken-web
+  template:
+    metadata:
+      labels:
+        app: broken-web
+    spec:
+      containers:
+        - name: web
+          image: nginx:does-not-exist
+          ports:
+            - containerPort: 80
