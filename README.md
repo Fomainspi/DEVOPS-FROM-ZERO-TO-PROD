@@ -2,7 +2,7 @@
 
 ![FOMA](https://img.shields.io/badge/FOMA-Foundation%20of%20Mastering%20Automation-0b5cff)
 ![Course](https://img.shields.io/badge/Course-DevOps%20from%20Zero%20to%20Production-6f42c1)
-![Status](https://img.shields.io/badge/Days%201--8-Complete-success)
+![Status](https://img.shields.io/badge/Days%209--11-Complete-success)
 
 **Foundation of Mastering Automation (FOMA)**  
 **Trainer:** William Foma — DevOps Trainer  
@@ -45,15 +45,15 @@ Every technology is introduced through:
 - [x] **Day 6 — Python for DevOps**
 - [x] **Day 7 — DevOps Automation Project**
 - [x] **Day 8 — Docker Fundamentals**
-- [ ] Day 9 — Docker Production Practices
-- [ ] Day 10 — Kubernetes Fundamentals
-- [ ] Day 11 — Kubernetes Workloads
-- [ ] Day 12 — Kubernetes Services & Networking
-- [ ] Day 13 — Kubernetes Configuration
-- [ ] Day 14 — Kubernetes Storage
-- [ ] Day 15 — Kubernetes Security & RBAC
-- [ ] Day 16 — Kubernetes Troubleshooting
-- [ ] Day 17 — Helm
+- [x] **Day 9 — Docker Production Practices**
+- [x] **Day 10 — Kubernetes Fundamentals**
+- [x] **Day 11 — Helm & Kubernetes Packaging**
+- [ ] Day 12 — Kubernetes Applications
+- [ ] Day 13 — Kubernetes Services & Networking
+- [ ] Day 14 — Kubernetes Configuration
+- [ ] Day 15 — Kubernetes Storage
+- [ ] Day 16 — Kubernetes Security & RBAC
+- [ ] Day 17 — Kubernetes Troubleshooting
 - [ ] Day 18 — CI/CD Fundamentals
 - [ ] Day 19 — Jenkins / GitHub Actions
 - [ ] Day 20 — Infrastructure as Code with Terraform
@@ -117,7 +117,7 @@ Day 1 establishes the foundation required for the rest of the program:
 
 ## Visual reference
 
-The official FOMA Day 5–8 infographics supplied with the curriculum define the sequence and learning outcomes. The repository expands each infographic into a complete lesson rather than copying the poster text.
+The official FOMA infographics supplied with the curriculum define the sequence and learning outcomes. The repository expands each infographic into a complete lesson rather than copying the poster text.
 
 Each module also contains an **original FOMA SVG illustration** designed specifically for the lesson:
 
@@ -125,6 +125,9 @@ Each module also contains an **original FOMA SVG illustration** designed specifi
 - Day 6 — Python for DevOps automation
 - Day 7 — End-to-end DevOps project flow
 - Day 8 — Docker mental model
+- Day 9 — Docker production flow
+- Day 10 — Kubernetes architecture
+- Day 11 — Helm release flow
 
 ## Suggested lab environment
 
@@ -148,6 +151,13 @@ DEVOPS-FROM-ZERO-TO-PROD/
         ├── day-02-linux-administration/
         ├── day-03-bash-shell-automation/
         ├── day-04-git-fundamentals/
+        ├── day-05-github-and-collaboration/
+        ├── day-06-python-for-devops/
+        ├── day-07-devops-automation-project/
+        ├── day-08-docker-fundamentals/
+        ├── day-09-docker-production-practices/
+        ├── day-10-kubernetes-fundamentals/
+        └── day-11-helm-kubernetes-packaging/
         ├── day-05-github-and-collaboration/
         ├── day-06-python-for-devops/
         ├── day-07-devops-automation-project/
