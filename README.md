@@ -1,7 +1,7 @@
 # DEVOPS FROM ZERO TO PRODUCTION
 
-![FOMA](https://img.shields.io/badge/FOMA-Foundation%20of%20Mastering%20Automation-0b5cff)
-![Course](https://img.shields.io/badge/Course-DevOps%20from%20Zero%20to%20Production-6f42c1)
+![FOMA](https://foma.life/)
+![Course](https://foma.life/#program)
 ![Status](https://img.shields.io/badge/Days%201--15-Complete-success)
 
 **Foundation of Mastering Automation (FOMA)**  
