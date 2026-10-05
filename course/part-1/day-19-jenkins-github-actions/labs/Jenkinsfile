@@ -1,0 +1,15 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Checkout') {
+            steps { checkout scm }
+        }
+        stage('Test') {
+            steps { sh 'echo Run tests here' }
+        }
+        stage('Build') {
+            steps { sh 'echo Build artifact here' }
+        }
+    }
+}
