@@ -1,6 +1,6 @@
 # Day 3 — Bash & Shell Automation
 
-Complete lesson: `lesson.md`.
+[Complete Lesson](./day-03-bash-shell-automation/lesson.md)
 
 Visual workflow: `illustrations/bash-automation-workflow.svg`.
 
