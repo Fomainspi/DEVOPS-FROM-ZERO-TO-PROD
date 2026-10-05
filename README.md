@@ -1,7 +1,5 @@
 # DEVOPS FROM ZERO TO PRODUCTION
 
-https://foma.life/
-![Course](https://foma.life/#program)
 ![Status](https://img.shields.io/badge/Days%201--15-Complete-success)
 
 **Foundation of Mastering Automation (FOMA)**  
