@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620">
+<rect width="1200" height="620" rx="28" fill="#07111f"/>
+<text x="60" y="70" fill="#fff" font-size="38" font-family="Arial" font-weight="700">FOMA — Python for DevOps</text>
+<text x="60" y="110" fill="#9db4cc" font-size="20" font-family="Arial">Python connects systems, APIs, cloud services and automation.</text>
+<g font-family="Arial" font-weight="700" font-size="22" text-anchor="middle">
+<rect x="55" y="200" width="190" height="115" rx="18" fill="#1e3a5f"/><text x="150" y="250" fill="#fff">PYTHON</text><text x="150" y="282" fill="#7dd3fc">logic</text>
+<rect x="275" y="200" width="190" height="115" rx="18" fill="#3b2a68"/><text x="370" y="250" fill="#fff">LINUX</text><text x="370" y="282" fill="#c4b5fd">subprocess</text>
+<rect x="495" y="200" width="190" height="115" rx="18" fill="#145b50"/><text x="590" y="250" fill="#fff">APIs</text><text x="590" y="282" fill="#86efac">requests</text>
+<rect x="715" y="200" width="190" height="115" rx="18" fill="#5a3a16"/><text x="810" y="250" fill="#fff">AWS</text><text x="810" y="282" fill="#fde68a">Boto3</text>
+<rect x="935" y="200" width="210" height="115" rx="18" fill="#4a2345"/><text x="1040" y="250" fill="#fff">CI/CD</text><text x="1040" y="282" fill="#f9a8d4">automation</text>
+</g>
+<g stroke="#67e8f9" stroke-width="4"><path d="M245 257H275"/><path d="M465 257H495"/><path d="M685 257H715"/><path d="M905 257H935"/></g>
+<text x="600" y="410" fill="#fff" font-size="27" font-family="Arial" text-anchor="middle">Safe inputs • timeouts • logging • meaningful exit codes</text>
+<text x="600" y="470" fill="#9db4cc" font-size="20" font-family="Arial" text-anchor="middle">FOMA • Foundation of Mastering Automation • https://foma.life</text>
+</svg>
