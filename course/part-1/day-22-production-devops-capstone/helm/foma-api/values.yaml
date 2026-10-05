@@ -1,0 +1,17 @@
+replicaCount: 3
+
+image:
+  repository: foma-api
+  tag: dev
+
+service:
+  type: ClusterIP
+  port: 8000
+
+resources:
+  requests:
+    cpu: 100m
+    memory: 128Mi
+  limits:
+    cpu: 500m
+    memory: 256Mi
