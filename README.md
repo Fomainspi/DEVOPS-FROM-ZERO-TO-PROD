@@ -1,6 +1,6 @@
 # DEVOPS FROM ZERO TO PRODUCTION
 
-![FOMA](https://foma.life/)
+https://foma.life/
 ![Course](https://foma.life/#program)
 ![Status](https://img.shields.io/badge/Days%201--15-Complete-success)
 
