@@ -7,3 +7,4 @@ Visual workflow: `illustrations/bash-automation-workflow.svg`.
 **FOMA — Foundation of Mastering Automation**  
 **William Foma — DevOps Trainer**  
 https://foma.life
+./day-03-bash-shell-automation
