@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520">
+<rect width="1200" height="520" fill="#07111f"/>
+<text x="600" y="55" text-anchor="middle" font-family="Arial" font-size="34" font-weight="700" fill="#ffffff">FOMA — Bash Automation Workflow</text>
+<g font-family="Arial" text-anchor="middle">
+<rect x="60" y="160" width="220" height="120" rx="18" fill="#143c73"/><text x="170" y="210" font-size="25" fill="#fff">USER</text><text x="170" y="248" font-size="19" fill="#bfe1ff">Command / Input</text>
+<rect x="350" y="160" width="220" height="120" rx="18" fill="#4b1b75"/><text x="460" y="210" font-size="25" fill="#fff">BASH</text><text x="460" y="248" font-size="19" fill="#ead2ff">Script / Logic</text>
+<rect x="640" y="160" width="220" height="120" rx="18" fill="#146044"/><text x="750" y="210" font-size="25" fill="#fff">LINUX</text><text x="750" y="248" font-size="19" fill="#c8ffe8">Processes / Files</text>
+<rect x="930" y="160" width="210" height="120" rx="18" fill="#8b4d12"/><text x="1035" y="210" font-size="25" fill="#fff">DEVOPS</text><text x="1035" y="248" font-size="19" fill="#ffe1b3">Automation</text>
+<path d="M280 220h70M570 220h70M860 220h70" stroke="#7dd3fc" stroke-width="8" marker-end="url(#a)"/>
+</g>
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L10,3 L0,6Z" fill="#7dd3fc"/></marker></defs>
+<text x="600" y="390" text-anchor="middle" font-family="Arial" font-size="23" fill="#fff">Understand → Script → Validate → Execute → Observe → Automate</text>
+</svg>
