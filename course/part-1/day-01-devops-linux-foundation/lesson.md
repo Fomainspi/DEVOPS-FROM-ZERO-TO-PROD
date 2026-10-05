@@ -61,6 +61,26 @@ By the end of Day 1, you should be able to:
 
 ---
 
+# 3. VISUAL ILLUSTRATIONS
+
+This lesson includes dedicated visual assets for the major concepts.
+
+### DevOps lifecycle
+
+![DevOps lifecycle](./illustrations/devops-lifecycle.svg)
+
+### Linux filesystem hierarchy
+
+![Linux filesystem hierarchy](./illustrations/linux-filesystem.svg)
+
+### Evidence-driven troubleshooting
+
+![DevOps troubleshooting workflow](./illustrations/troubleshooting-workflow.svg)
+
+Use these illustrations together with the command-line exercises. The diagrams are intentionally simple so that a beginner can understand the flow before working with the terminal.
+
+---
+
 # 3. LAB ENVIRONMENT AND SAFETY
 
 Recommended:
