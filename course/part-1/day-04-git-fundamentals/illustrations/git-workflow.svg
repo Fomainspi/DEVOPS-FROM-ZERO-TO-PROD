@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520">
+<rect width="1200" height="520" fill="#07111f"/>
+<text x="600" y="55" text-anchor="middle" font-family="Arial" font-size="34" font-weight="700" fill="#fff">FOMA — Git Core Workflow</text>
+<g font-family="Arial" text-anchor="middle">
+<rect x="55" y="155" width="235" height="135" rx="18" fill="#123e68"/><text x="172" y="205" font-size="24" fill="#fff">WORKING</text><text x="172" y="242" font-size="24" fill="#fff">DIRECTORY</text><text x="172" y="270" font-size="16" fill="#bfe1ff">edit files</text>
+<rect x="335" y="155" width="235" height="135" rx="18" fill="#4b1d70"/><text x="452" y="205" font-size="24" fill="#fff">STAGING</text><text x="452" y="242" font-size="24" fill="#fff">AREA</text><text x="452" y="270" font-size="16" fill="#ead2ff">git add</text>
+<rect x="615" y="155" width="235" height="135" rx="18" fill="#155b43"/><text x="732" y="205" font-size="24" fill="#fff">LOCAL</text><text x="732" y="242" font-size="24" fill="#fff">REPOSITORY</text><text x="732" y="270" font-size="16" fill="#c8ffe8">git commit</text>
+<rect x="895" y="155" width="250" height="135" rx="18" fill="#8a4b12"/><text x="1020" y="205" font-size="24" fill="#fff">GITHUB</text><text x="1020" y="242" font-size="24" fill="#fff">REMOTE</text><text x="1020" y="270" font-size="16" fill="#ffe1b3">git push</text>
+<path d="M290 222h45M570 222h45M850 222h45" stroke="#7dd3fc" stroke-width="8" marker-end="url(#a)"/>
+</g>
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L10,3 L0,6Z" fill="#7dd3fc"/></marker></defs>
+<text x="600" y="390" text-anchor="middle" font-family="Arial" font-size="23" fill="#fff">Branch → Commit → Push → Pull Request → Review → CI → Merge</text>
+</svg>
