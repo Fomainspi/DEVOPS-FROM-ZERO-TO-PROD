@@ -8,3 +8,5 @@ Visual workflow: `illustrations/bash-automation-workflow.svg`.
 **William Foma — DevOps Trainer**  
 https://foma.life
 ./day-03-bash-shell-automation
+
+
