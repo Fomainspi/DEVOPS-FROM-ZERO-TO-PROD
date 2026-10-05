@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: foma-app
+  namespace: production
+spec:
+  containers:
+    - name: app
+      image: nginx:1.25
+      envFrom:
+        - configMapRef:
+            name: foma-config
+        - secretRef:
+            name: foma-secret
+      volumeMounts:
+        - name: data
+          mountPath: /var/lib/foma
+  volumes:
+    - name: data
+      persistentVolumeClaim:
+        claimName: foma-pvc
