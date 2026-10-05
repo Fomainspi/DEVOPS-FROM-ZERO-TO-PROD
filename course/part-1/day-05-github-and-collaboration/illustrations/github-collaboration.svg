@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620">
+<rect width="1200" height="620" rx="28" fill="#07111f"/>
+<text x="60" y="70" fill="#fff" font-size="38" font-family="Arial" font-weight="700">FOMA — GitHub Collaboration Flow</text>
+<text x="60" y="110" fill="#9db4cc" font-size="20" font-family="Arial">Branch → Push → Pull Request → Review → CI → Merge</text>
+<g font-family="Arial" font-weight="700" font-size="22" text-anchor="middle">
+<rect x="55" y="200" width="180" height="110" rx="18" fill="#12385a"/><text x="145" y="250" fill="#fff">Feature</text><text x="145" y="282" fill="#7dd3fc">branch</text>
+<rect x="280" y="200" width="180" height="110" rx="18" fill="#203f68"/><text x="370" y="250" fill="#fff">GitHub</text><text x="370" y="282" fill="#7dd3fc">push</text>
+<rect x="505" y="200" width="180" height="110" rx="18" fill="#4a2d73"/><text x="595" y="250" fill="#fff">Pull</text><text x="595" y="282" fill="#c4b5fd">Request</text>
+<rect x="730" y="200" width="180" height="110" rx="18" fill="#155e55"/><text x="820" y="250" fill="#fff">Review +</text><text x="820" y="282" fill="#86efac">CI</text>
+<rect x="955" y="200" width="180" height="110" rx="18" fill="#5b3b16"/><text x="1045" y="250" fill="#fff">Merge</text><text x="1045" y="282" fill="#fde68a">main</text>
+</g>
+<g stroke="#67e8f9" stroke-width="5"><path d="M235 255H280"/><path d="M460 255H505"/><path d="M685 255H730"/><path d="M910 255H955"/></g>
+<text x="600" y="400" fill="#fff" font-size="26" font-family="Arial" text-anchor="middle">Small changes + review + automated validation</text>
+<text x="600" y="455" fill="#9db4cc" font-size="20" font-family="Arial" text-anchor="middle">FOMA • Foundation of Mastering Automation • https://foma.life</text>
+</svg>
