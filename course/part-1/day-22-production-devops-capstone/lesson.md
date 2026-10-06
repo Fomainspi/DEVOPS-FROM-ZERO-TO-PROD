@@ -825,7 +825,7 @@ Document:
 
 ---
 
-## 28. What you should now be able to explain
+## 28. What you should know by now.
 
 ~~~text
 Developer changes code
